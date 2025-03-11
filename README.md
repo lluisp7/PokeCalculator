@@ -1,6 +1,5 @@
 # PokeCalculator
-
-[![PokeCalculator](https://pokecalculator.netlify.app/)
+(https://pokecalculator.netlify.app/)
 
 ## Description
 
