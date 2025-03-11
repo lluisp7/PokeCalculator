@@ -1,3 +1,9 @@
-const numbers  = document.getElementById="numbers";
+const numbers  = document.getElementById("numbers");
 
-function append
+function appendToDisplay(input){
+    numbers.value += input;
+}
+function clearDisplay(){
+}
+function calculate(){
+}    
