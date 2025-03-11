@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(211, 76%, 53%);
+}
 #app{
     border-radius: 15px;
    background-color: #2468B1;
@@ -27,9 +35,16 @@ button{
    height: 100px;
    border-radius: 40px; 
    border: none;
-   background-color: #FCCF00;
-   color: #2468B1 ;
+   background-color: #fcce00e0;
+   color: #2468b1cc ;
    font-size: 3rem;
    font-weight: bold;
    cursor: pointer;
+}
+button:hover{
+    background-color: #FCCF00;
+    color: #2468B1;
+}
+button:active{
+    background-color: #fddf5a;
 }
