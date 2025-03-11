@@ -6,6 +6,15 @@ function appendToDisplay(input){
 function clearDisplay(){
     numbers.value = "";
 }
+
 function calculate(){
-    
-}    
+    try{    
+    numbers.value = eval(numbers.value);
+    }   
+    catch(error){
+        numbers.value = "Syntax Error";
+        setTimeout(() => {
+            numbers.value = "";
+        }, 1000);
+    }
+}
